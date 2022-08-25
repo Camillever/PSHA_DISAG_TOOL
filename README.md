@@ -10,7 +10,12 @@ Developed by Camille Huitorel (internship in EDF Lab R&D Paris-Saclay) - 08/2022
 -------------------------------------------------------------------
 
 ## General Info
+The OpenQuake-Engine is a suite of open source software packages part of OpenQuake (OQ) and is an open-source hazard and risk calculation engine developed by Global Earthquake Model Foundation’s (GEM).
 
+
+This tool provides:
+  * The ability to filter with the given patterns and mode of calculation concerned in the whole list of files provided by OpenQuake. This function has also been unit tested.
+  * Three types of visualization of OpenQuake results : seismic hazard curve, UHS (Uniform Hazard Spectrum) and disaggregation plots.
 
 ## Installation
 ### Recommended : create a virtual environment
