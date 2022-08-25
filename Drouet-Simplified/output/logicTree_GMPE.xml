@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml" xmlns:nrml="http://openquake.org/xmlns/nrml/0.5" xmlns="http://openquake.org/xmlns/nrml/0.5">
+  <logicTree logicTreeID="LogicTree_GMPE">
+    <logicTreeBranchSet branchSetID="g1" uncertaintyType="gmpeModel" applyToTectonicRegionType="Stable Shallow Crust">
+      <logicTreeBranch branchID="gmpe_Stable_1">
+        <uncertaintyModel>CauzziEtAl2014</uncertaintyModel>
+        <uncertaintyWeight>0.25</uncertaintyWeight>
+      </logicTreeBranch>
+      <logicTreeBranch branchID="gmpe_Stable_2">
+        <uncertaintyModel>DrouetAlpes2015Rrup</uncertaintyModel>
+        <uncertaintyWeight>0.25</uncertaintyWeight>
+      </logicTreeBranch>
+      <logicTreeBranch branchID="gmpe_Stable_3">
+        <uncertaintyModel>AbrahamsonEtAl2014</uncertaintyModel>
+        <uncertaintyWeight>0.25</uncertaintyWeight>
+      </logicTreeBranch>
+      <logicTreeBranch branchID="gmpe_Stable_4">
+        <uncertaintyModel>AmeriEtAl2017Rjb</uncertaintyModel>
+        <uncertaintyWeight>0.25</uncertaintyWeight>
+      </logicTreeBranch>
+    </logicTreeBranchSet>
+  </logicTree>
+</nrml>

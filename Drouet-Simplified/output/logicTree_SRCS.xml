@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml" xmlns:nrml="http://openquake.org/xmlns/nrml/0.5" xmlns="http://openquake.org/xmlns/nrml/0.5">
+  <logicTree logicTreeID="Source Logic Tree - DROUET ET AL 2020, VS30=800 m/s">
+    <logicTreeBranchSet branchSetID="source_models" uncertaintyType="sourceModel">
+      <logicTreeBranch branchID="model#0">
+        <uncertaintyModel>area_sources_EDF_1.xml</uncertaintyModel>
+        <uncertaintyWeight>0.220000</uncertaintyWeight>
+      </logicTreeBranch>
+      <logicTreeBranch branchID="model#1">
+        <uncertaintyModel>area_sources_GTR_1.xml</uncertaintyModel>
+        <uncertaintyWeight>0.220000</uncertaintyWeight>
+      </logicTreeBranch>
+      <logicTreeBranch branchID="model#2">
+        <uncertaintyModel>area_sources_IRSN_1.xml</uncertaintyModel>
+        <uncertaintyWeight>0.220000</uncertaintyWeight>
+      </logicTreeBranch>
+      <logicTreeBranch branchID="model#3">
+        <uncertaintyModel>smoothed_source_model_1.xml</uncertaintyModel>
+        <uncertaintyWeight>0.340000</uncertaintyWeight>
+      </logicTreeBranch>
+    </logicTreeBranchSet>
+  </logicTree>
+</nrml>
